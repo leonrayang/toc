@@ -51,8 +51,10 @@ Record of CubeFS presentation at the Storage TAG on April 24, 2024. [link to vid
 - Current maintainers of CubeFS coming from JD, OPPO, BEIKE etc.: [link to md#section](https://github.com/cubefs/cubefs/blob/master/MAINTAINERS.md?rgh-link-date=2024-03-30T12%3A39%3A54Z#maintainers)
 - Steering committee member: [link to md#section](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md?rgh-link-date=2024-03-30T12%3A39%3A54Z#expectations-from-the-steering-committee)
 
-- [ ] **Review and acknowledgement of expectations for [graduated](sandbox.cncf.io) projects and requirements for moving forward through the CNCF Maturity levels.**		
+- [ ] **Review and acknowledgement of expectations for [graduated](sandbox.cncf.io) projects and requirements for moving forward through the CNCF Maturity levels.**
   - [ ] Met during Project's application on 10-Apr-2024.
+******* Kevin:
+  TODO: add tracking docs link, and some descriptions
 
 <!-- (TOC Evaluation goes here) -->
 
@@ -110,10 +112,13 @@ CubeFS governance documentation: [link to md#section](https://github.com/cubefs/
 - The establishment of the Steering Committee and clarification of its members in CubeFS: [link to issue](https://github.com/cubefs/cubefs/pull/3311#issue-2238919813)
 - Update the document of the roadmap to improve readability and include features that are in preparation but not yet scheduled: [link to pr](https://github.com/cubefs/cubefs/pull/3358)
 
-- [ ] **Governance clearly documents [vendor-neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/) of project direction.**
+- [x] **Governance clearly documents [vendor-neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/) of project direction.**
 
 <!-- (TOC Evaluation goes here) -->
 ******* Kevin: add vendor-neutrality description besides project assets
+CubeFS has clear vendor-neutrality description the governance doc.
+
+// Assets from the maintainers are irrelevant. Need to summarize from the community governance doc instead.
 
 ******* Relevant Assets from the Project:
 
@@ -122,7 +127,7 @@ CubeFS governance documentation: [link to md#section](https://github.com/cubefs/
 - CubeFS roadmap 2024: [link to md#section](https://github.com/cubefs/cubefs/blob/master/ROADMAP.md?rgh-link-date=2024-03-30T12%3A39%3A54Z)
 
 
-- [ ] **Document how the project makes decisions on leadership, contribution acceptance, requests to the CNCF, and changes to governance or project goals.**
+- [x] **Document how the project makes decisions on leadership, contribution acceptance, requests to the CNCF, and changes to governance or project goals.**
 
 <!-- (TOC Evaluation goes here) -->
 ******* Kevin:
@@ -327,15 +332,19 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 - [ ] **Document the project's release process and guidelines publicly in a RELEASES.md or equivalent file that defines:**
 
-  - [ ] Release expectations (scheduled or based on feature implementation)
-  - [ ] Tagging as stable, unstable, and security related releases
-  - [ ] Information on branch and tag strategies
-  - [ ] Branch and platform support and length of support
-  - [ ] Artifacts included in the release.
+  - [x] Release expectations (scheduled or based on feature implementation)
+  - [x] Tagging as stable, unstable, and security related releases
+  - [x] Information on branch and tag strategies
+  - [x] Branch and platform support and length of support
+  - [x] Artifacts included in the release.
   - Additional information on topics such as LTS and edge releases are optional. Release expectations are a social contract between the project and its end users and hence changes to these should be well thought out, discussed, socialized and as necessary agreed upon by project leadership before getting rolled out.
 
 <!-- (TOC Evaluation goes here) --> 
 ******* Kevin:
+- Cubefs documents their release frequency as needed (beta and official releases), which can be regarded as based on feature implementation.
+- Security release process described at: https://github.com/cubefs/cubefs/blob/master/security/security-release-process.md
+- Length of support clearly documented, support latest 3 minor releases.
+- **Findings, suggeted update**: No specific description of platform supported, according to the [artifacts-included-in-the-release](https://github.com/cubefs/cubefs/blob/cef58ab3db04857b05a69d9a132e37d4d92e79c7/RELEASE.md#artifacts-included-in-the-release), seems only amd64 binaries are maintained by the community currently.
 
 ******* Relevant Assets from the Project:
 
