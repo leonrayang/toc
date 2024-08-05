@@ -188,45 +188,37 @@ Product Security Committee Membership: Rules for assignment, onboarding, and rem
   - Historical changes: The maintainer update is due to insufficient activity levels from many individuals.[link to pr](https://github.com/cubefs/cubefs/pull/3044)
   - Rules: How to become a maintainer.[link to md#section](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md?rgh-link-date=2024-03-30T12%3A39%3A54Z#changes-in-maintainership)
 
+- [x] **Project maintainers from at least 2 organizations that demonstrates survivability.**
 
-- [ ] **Project maintainers from at least 2 organizations that demonstrates survivability.**
+  According to the [Maintainers list](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/MAINTAINERS.md), CubeFS currently has top level maintainers from OPPO, JD.com, BEIKE, Bytedance, LinkedIn, and additional committers from BIGO, VIVO.
 
-  <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
+  Definition of Maintainers and Committers can be found in the [Goverance doc](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/GOVERNANCE.md)
 
-  ******* Relevant Assets from the Project:
+- [x] **Code and Doc ownership in Github and elsewhere matches documented governance roles.**
 
+  - Maintainers have expertise in the domain fields of the project and are listed in the maintainer documentation. Ref: [Maitainers.md#maintainers](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/MAINTAINERS.md#maintainers)
+  - The top 6 contributors with the highest number of contributions are all maintainers. Ref: [github contribution graph](https://github.com/cubefs/cubefs/graphs/contributors?from=2019-02-20&to=2024-08-05&type=c)
 
-- [ ] **Code and Doc ownership in Github and elsewhere matches documented governance roles.**
+- [x] **Document agreement that project will adopt CNCF Code of Conduct.**
 
-  <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
+  Documented at [GOVERNANCE.md#code-of-conduct](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#code-of-conduct)
 
-  ******* Relevant Assets from the Project:
+- [x] **CNCF Code of Conduct is cross-linked from other governance documents.**
 
-
-- [ ] **Document agreement that project will adopt CNCF Code of Conduct.**
-
-  <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
-
-  ******* Relevant Assets from the Project:
-
-
-- [ ] **CNCF Code of Conduct is cross-linked from other governance documents.**
-
-  <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
-
-  ******* Relevant Assets from the Project:
-
+  CNCF Code of conduct is cross-linked in the [Code of Conduct of CubeFS](https://github.com/cubefs/cubefs/blob/master/CODE_OF_CONDUCT.md)
 
 - [ ] **All subprojects, if any, are listed.**
-
   <!-- (TOC Evaluation goes here) -->
   ******* Kevin:
+  The project team says CubeFS has only components, no sub-projects.
+  **Kevin TODO: Assets from the Project is incomplete, need to double check.**
 
   ******* Relevant Assets from the Project:
+  The following projects are associated with CubeFS and serve as components.
+
+  - Adapt CubeFS installation to helm in the Kubernetes ecosystem: [cubefs-helm](https://github.com/cubefs/cubefs-helm)
+  - Adapt CubeFS management to CSI (Container Storage Interface): [cubefs-csi](https://github.com/cubefs/cubefs-csi)
+  - Dashboard for CubeFS: [cubefs-dashboard](https://github.com/cubefs/cubefs-dashboard)
 
 
 - [ ] **If the project has subprojects: subproject leadership, contribution, maturity status documented, including add/remove process.**
@@ -236,6 +228,7 @@ Product Security Committee Membership: Rules for assignment, onboarding, and rem
 
   ******* Relevant Assets from the Project:
 
+  All subprojects have their own repositories but follow the same governance mechanism as the main project. Ref: [GOVERNACE.md#other-projects](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#other-projects)
 
 ## Contributors and Community
 
