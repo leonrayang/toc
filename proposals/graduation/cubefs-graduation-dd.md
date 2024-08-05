@@ -201,11 +201,11 @@ Product Security Committee Membership: Rules for assignment, onboarding, and rem
 
 - [x] **Document agreement that project will adopt CNCF Code of Conduct.**
 
-  Documented at [GOVERNANCE.md#code-of-conduct](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#code-of-conduct)
+  Documented at [GOVERNANCE.md#code-of-conduct](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/GOVERNANCE.md#code-of-conduct)
 
 - [x] **CNCF Code of Conduct is cross-linked from other governance documents.**
 
-  CNCF Code of conduct is cross-linked in the [Code of Conduct of CubeFS](https://github.com/cubefs/cubefs/blob/master/CODE_OF_CONDUCT.md)
+  CNCF Code of conduct is cross-linked in the [Code of Conduct of CubeFS](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/CODE_OF_CONDUCT.md)
 
 - [ ] **All subprojects, if any, are listed.**
   <!-- (TOC Evaluation goes here) -->
@@ -225,7 +225,7 @@ Product Security Committee Membership: Rules for assignment, onboarding, and rem
 
   <!-- (TOC Evaluation goes here) -->
   ******* Kevin:
-
+    TODO: need update from the project team
   ******* Relevant Assets from the Project:
 
   All subprojects have their own repositories but follow the same governance mechanism as the main project. Ref: [GOVERNACE.md#other-projects](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#other-projects)
@@ -236,27 +236,28 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 ### Suggested
 
-- [ ] **Contributor ladder with multiple roles for contributors.**
+- [x] **Contributor ladder with multiple roles for contributors.**
 
-  <!-- (TOC Evaluation goes here) -->
+  Cubefs have multiple roles for contributors
+  - Commiter: [GOVERNANCE.md#committer](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/GOVERNANCE.md#committer)
+  - Maintainer: [GOVERNANCE.md#expectations-from-maintainers](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/GOVERNANCE.md#expectations-from-maintainers)
+  - Steering committee member: [GOVERNANCE.md#expectations-from-the-steering-committee](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/GOVERNANCE.md#expectations-from-the-steering-committee)
 
 ### Required
 
-- [ ] **Clearly defined and discoverable process to submit issues or changes.**
+- [x] **Clearly defined and discoverable process to submit issues or changes.**
 
+  Defined in [CONTRIBUTING.md](https://github.com/cubefs/cubefs/blob/master/CONTRIBUTING.md), in the root path of CubeFS main repo.
 
-  <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
+- [x] **Project must have, and document, at least one public communications channel for users and/or contributors.**
 
-  ******* Relevant Assets from the Project:
+  CubeFS has the following public communications channel for users and contributors documented in the [Project README](https://github.com/cubefs/cubefs#community)
 
-
-- [ ] **Project must have, and document, at least one public communications channel for users and/or contributors.**
-
-  <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
-
-  ******* Relevant Assets from the Project:
+  - Website: <https://cubefs.io/>
+  - Mailing list: <users@cubefs.groups.io>
+  - Slack: <https://cubefs.slack.com>
+  - WeChat: <https://github.com/cubefs/cubefs/issues/604>
+  - X/Twitter: <https://x.com/cubefs_storage>
 
 
 - [ ] **List and document all project communication channels, including subprojects (mail list/slack/etc.).  List any non-public communications channels and what their special purpose is.**
@@ -266,28 +267,23 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
   ******* Relevant Assets from the Project:
 
+  Besides pulic channels, CubeFS has a private mailing list <security@cubefs.groups.io> for users reporting security vulnerabilities. Ref: [Security](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/SECURITY.md)
 
-- [ ] **Up-to-date public meeting schedulers and/or integration with CNCF calendar.**
+- [x] **Up-to-date public meeting schedulers and/or integration with CNCF calendar.**
 
-  <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
+  CubeFS currently holds monthly community meeting, integrated with [CNCF calendar](https://www.cncf.io/calendar/)
+  And meeting minutes and recordings listed at: [CubeFS meeting schedule](https://github.com/cubefs/cubefs-community/wiki/Meeting-Schedule)
 
-  ******* Relevant Assets from the Project:
+- [x] **Documentation of how to contribute, with increasing detail as the project matures.**
 
-
-- [ ] **Documentation of how to contribute, with increasing detail as the project matures.**
-
-  <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
-
-  ******* Relevant Assets from the Project:
+  CubeFS contribution workflow documented at: [CONTRIBUTING.md#workflow](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/CONTRIBUTING.md#workflow)
 
 
 - [ ] **Demonstrate contributor activity and recruitment.**
 
   <!-- (TOC Evaluation goes here) -->
   ******* Kevin:
-
+    Assets from project team irralevant.
   ******* Relevant Assets from the Project:
 
 
