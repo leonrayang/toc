@@ -84,11 +84,14 @@ Note: this section may be augmented by the completion of a Governance Review fro
   ******* Kevin:
 
   ******* Relevant Assets from the Project:
+In the past period, the core maintainer of CubeFS has been continuously optimizing around governance, hoping that the community will be clear, reasonable, efficient, and explicit in governance to help the community develop.Below are some governance document changes and pull requests made in response to governance documents, all of which have been voted on and presented by maintainers.
 
   - Update the Governance Document by most of maintainers: [link to pr](https://github.com/cubefs/cubefs/pull/3312)
   - Update the Governance Document to eliminate the role of the leader:[link to pr](https://github.com/cubefs/cubefs/pull/3382)
   - Update maintainer list according to activity and add steering commitee member: [link to pr](https://github.com/cubefs/cubefs/pull/3311)
-
+  - Add a commiter through voting by steer committe and maintainers : https://github.com/cubefs/cubefs/pull/3386
+  - Adding governance rules related to SIGs.: [link to pr](https://github.com/cubefs/cubefs/pull/3430)
+  - Adding governance rules related to RoadMap.: [link to pr](https://github.com/cubefs/cubefs/pull/3430)
 
 ### Required
 
