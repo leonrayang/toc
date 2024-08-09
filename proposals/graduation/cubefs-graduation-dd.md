@@ -214,7 +214,7 @@ Product Security Committee Membership: Rules for assignment, onboarding, and rem
   **Kevin TODO: Assets from the Project is incomplete, need to double check.**
 
   ******* Relevant Assets from the Project:
-  The following projects are associated with CubeFS and serve as components.
+  The following projects are associated with CubeFS and serve as sub-projects.
 
   - Adapt CubeFS installation to helm in the Kubernetes ecosystem: [cubefs-helm](https://github.com/cubefs/cubefs-helm)
   - Adapt CubeFS management to CSI (Container Storage Interface): [cubefs-csi](https://github.com/cubefs/cubefs-csi)
