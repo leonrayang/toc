@@ -31,7 +31,7 @@ N/A
 - [x] **Give a presentation and engage with the domain specific TAG(s) to increase awareness**
 
   <!-- (TOC Evaluation goes here) -->
-Record of CubeFS presentation at the Storage TAG on April 24, 2024. [link to video](https://www.youtube.com/watch?v=UgRBZhzfr4w)
+  Record of CubeFS presentation at the Storage TAG on April 24, 2024. [link to video](https://www.youtube.com/watch?v=UgRBZhzfr4w)
 
 - [ ] **TAG provides insight/recommendation of the project in the context of the landscape**
 
@@ -39,23 +39,21 @@ Record of CubeFS presentation at the Storage TAG on April 24, 2024. [link to vid
   ******* Kevin:
   TODO: add recommendation from TAG-storage here.
 
-- [ ] **All project metadata and resources are [vendor-neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/).**
+- [x] **All project metadata and resources are [vendor-neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/).**
 
   <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
-  // Need to Describe with rules and examples of proof
+  - **Neutral resources** - CubeFS has its own channels (community branded and managed), including:
+    - Homepage: <cubefs.io>
+    - Mailing list: <users@cubefs.groups.io>
+    - Slack: <cubefs.slack.com>
+    - WeChat: <https://github.com/cubefs/cubefs/issues/604>
+    - Twitter: <https://x.com/cubefs_storage>
+    - Community Meeting: <https://meeting.tencent.com/dm/IpNLDdT7uyEH>
 
-  ******* Relevant Assets from the Project:
-
-  - In CubeFS governance.md, we require vendur-neutrality: [link to md#section](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#vendor-neutrality)
-  - Current maintainers of CubeFS coming from JD, OPPO, BEIKE etc.: [link to md#section](https://github.com/cubefs/cubefs/blob/master/MAINTAINERS.md#maintainers), refer to the [governance documentation](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md). According to this documentation, maintainers are responsible for the most important strategies of the community, including:
-    - [**Expectations from Maintainers**](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#becoming-a-maintainer)
-    - [**Changes in Project Roadmap**](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#changes-in-project-roadmap)
-      - [vote process](https://github.com/cubefs/cubefs/pull/3358)
-    - [**Member Changes and Management in SIGs**](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#member-changes-and-management-in-sigs)
-      - [vote process](https://github.com/cubefs/cubefs/pull/3428)
-    - [**Decision Making Process**](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#decision-making-process)
-  - Steering committee member: [link to md#section](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#expectations-from-the-steering-committee)
+  - **Governance** - [GOVERNANCE.md](https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/GOVERNANCE.md) defined vendor-neutrality requirements on the TSC, Maintainers, Committers, including:
+    - [The structure of the Technical Steering Committee Section](https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/GOVERNANCE.md#the-structure-of-the-maintainers) says: `No single vendor can exceed 50% of the total number of personnel.`
+    - [The structure of the Maintainers Section](https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/GOVERNANCE.md#the-structure-of-the-maintainers) says: `No single vendor can exceed 50% of the total number of personnel.`
+    - [The structure of the Committers Section](https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/GOVERNANCE.md#the-structure-of-the-committers) says: `No single vendor can exceed 50% of the total number of personnel.`
 
 - [ ] **Review and acknowledgement of expectations for [graduated](sandbox.cncf.io) projects and requirements for moving forward through the CNCF Maturity levels.**
   - [ ] Met during Project's application on 10-Apr-2024.
@@ -66,16 +64,11 @@ Record of CubeFS presentation at the Storage TAG on April 24, 2024. [link to vid
 
 Completion of this due diligence document, resolution of concerns raised, and presented for public comment satisifies the Due Diligence Review criteria.
 
-- [ ] **Additional documentation as appropriate for project type, e.g.: installation documentation, end user documentation, reference implementation and/or code samples.**
+- [x] **Additional documentation as appropriate for project type, e.g.: installation documentation, end user documentation, reference implementation and/or code samples.**
 
   <!-- (TOC Evaluation goes here) -->
-
-  ******* Kevin:
-
-  ******* Relevant Assets from the Project:
-
-  - [CubeFS introduction documentation](https://cubefs.io/docs/master/overview/introduction.html) mainly introduces the CubeFS architecture and main features.
-  - [CubeFS installation documentation](https://cubefs.io/docs/master/deploy/env.html) includes serveral ways of deployment.
+  - [CubeFS introduction documentation](https://cubefs.io/docs/master/overview/introduction.html) introduces the CubeFS architecture and main features.
+  - [CubeFS installation documentation](https://cubefs.io/docs/master/deploy/env.html) covers serveral ways of deployment.
   - [CubeFS end user documentation](https://cubefs.io/docs/master/user-guide/volume.html) includes basics operations as creating a volume, using volume and using cli tool.
 
 ## Governance and Maintainers
@@ -122,6 +115,7 @@ Note: this section may be augmented by the completion of a Governance Review fro
   - Add committer according to Governance and vote rules: [link to issue](https://github.com/cubefs/cubefs/pull/3384), approved by steering committe by votes.
   - Update the document of the roadmap to improve readability and include features that are in preparation but not yet scheduled: [link to pr](https://github.com/cubefs/cubefs/pull/3358), approved by steering committe by votes.
   - CubeFS Create SIGs according to [Member Changes and Management in SIGs](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#member-changes-and-management-in-sigs),  then nomitated the leader group of SIGS and [approved by  steering committe by votes and maintainers](https://github.com/cubefs/cubefs-community/pull/13).
+
 - [x] **Governance clearly documents [vendor-neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/) of project direction.**
 
   <!-- (TOC Evaluation goes here) -->
@@ -129,6 +123,7 @@ Note: this section may be augmented by the completion of a Governance Review fro
   CubeFS has clear vendor-neutrality description the governance doc.
   
   The governance document [link](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#vendor-neutrality) clearly defines matters related to information transparency, channel transparency, decision-making, and other aspects among vendors.
+
 
   ******* Relevant Assets from the Project:
 
@@ -254,20 +249,18 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 
 - [ ] **If the project has subprojects: subproject leadership, contribution, maturity status documented, including add/remove process.**
-
-  
+  <!-- (TOC Evaluation goes here) -->
   According to [Governance.md#sub-projects](https://github.com/cubefs/cubefs/blob/3576d88889e94d7173401e389824dd61cc485718/GOVERNANCE.md#sub-projects), sub-projects can have their own repositories but follow the same governance mechanism as the main project
 
-  <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
 
-  TODO: need update from the project team
+  ******* Kevin: TODO: need update from the project team
   ******* Relevant Assets from the Project:
 
-All subprojects have their own repositories but follow the same governance mechanism as the main project. [link](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md)
-[cubefs-helm Governance](https://github.com/cubefs/cubefs-csi#governance)
-[cubefs-csi Governance](https://github.com/cubefs/cubefs-csi#governance)
-[cubefs-dashboard Governance](https://github.com/cubefs/cubefs-dashboard#governance)
+  All subprojects have their own repositories but follow the same governance mechanism as the main project. [link](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md)
+  [cubefs-helm Governance](https://github.com/cubefs/cubefs-csi#governance)
+  [cubefs-csi Governance](https://github.com/cubefs/cubefs-csi#governance)
+  [cubefs-dashboard Governance](https://github.com/cubefs/cubefs-dashboard#governance)
+
 ## Contributors and Community
 
 Note: this section may be augmented by the completion of a Governance Review from TAG Contributor Strategy.
@@ -296,12 +289,14 @@ Note: this section may be augmented by the completion of a Governance Review fro
   - Slack: [https://cubefs.slack.com](https://cubefs.slack.com)
   - WeChat: [https://github.com/cubefs/cubefs/issues/604](https://github.com/cubefs/cubefs/issues/604)
   - X/Twitter: [https://x.com/cubefs_storage](https://x.com/cubefs_storage)
+
 - [ ] **List and document all project communication channels, including subprojects (mail list/slack/etc.).  List any non-public communications channels and what their special purpose is.**
   <!-- (TOC Evaluation goes here) -->
   ******* Kevin:
   ******* Relevant Assets from the Project:
   - The communication channels for CubeFS and it's sub-projects are shared: [link](https://github.com/cubefs/cubefs#community)
   - Besides public channels, CubeFS has a private mailing list <security@cubefs.groups.io> for users reporting security vulnerabilities. Ref: [Security](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/SECURITY.md)
+
 - [x] **Up-to-date public meeting schedulers and/or integration with CNCF calendar.**
 
   CubeFS currently holds monthly community meeting, integrated with [CNCF calendar](https://www.cncf.io/calendar/)
@@ -317,29 +312,29 @@ Note: this section may be augmented by the completion of a Governance Review fro
   ******* Kevin:
     Assets from project team irralevant.
   ******* Relevant Assets from the Project:
-- Contributor activity can be measured and displayed using GitHub's built-in tools to assess the current participation of contributors
-[The contributions of contributors](https://github.com/cubefs/cubefs/graphs/contributors)
-[The level of community activity, including contributors' discussions, issues, pull requests, and other activities](https://github.com/cubefs/cubefs/graphs/community)
+  - Contributor activity can be measured and displayed using GitHub's built-in tools to assess the current participation of contributors
+  [The contributions of contributors](https://github.com/cubefs/cubefs/graphs/contributors)
+  [The level of community activity, including contributors' discussions, issues, pull requests, and other activities](https://github.com/cubefs/cubefs/graphs/community)
 
-- Using strategies and methods such as participating in summits and events to attract new vendor and adoptors
-  - 2024 KubeCon HONGKONG: CubeFS Boosts Efficiency of AI Production
-  - 2023 KubeCon China:[Cloud Native Storage CubeFS, Empowering AI Acceleration](https://www.youtube.com/watch?v=JOio7Nps_II&t=1036s)
-  - 2022 KubeCon NA:[The Best Practice of Machine Learning Platform Storage Based on CubeFS](https://www.youtube.com/watch?v=T8IjKLU9DWw&t=896s)
-  - 2023 GOTC: [interview](https://baijiahao.baidu.com/s?id=1766755025138692049&wfr=spider&for=pc)
-- By participating in developer events attract contributors
-  - [Summer of Open Source](https://www.we2shopping.com/blog/2829327/)
-  - [Developer activity 2024](https://github.com/cubefs/cubefs/issues/3105)
-  - [Developer activity 2023](https://github.com/cubefs/cubefs/issues/1920)
+  - Using strategies and methods such as participating in summits and events to attract new vendor and adoptors
+    - 2024 KubeCon HONGKONG: CubeFS Boosts Efficiency of AI Production
+    - 2023 KubeCon China:[Cloud Native Storage CubeFS, Empowering AI Acceleration](https://www.youtube.com/watch?v=JOio7Nps_II&t=1036s)
+    - 2022 KubeCon NA:[The Best Practice of Machine Learning Platform Storage Based on CubeFS](https://www.youtube.com/watch?v=T8IjKLU9DWw&t=896s)
+    - 2023 GOTC: [interview](https://baijiahao.baidu.com/s?id=1766755025138692049&wfr=spider&for=pc)
+  - By participating in developer events attract contributors
+    - [Summer of Open Source](https://www.we2shopping.com/blog/2829327/)
+    - [Developer activity 2024](https://github.com/cubefs/cubefs/issues/3105)
+    - [Developer activity 2023](https://github.com/cubefs/cubefs/issues/1920)
 
-- Ensure that new members can integrate smoothly and participate actively。For vendor enterprise users, there is a direct group chat for WeChat products. Generally, companies with technical capabilities will consider participating in development for feature customization
+  - Ensure that new members can integrate smoothly and participate actively。For vendor enterprise users, there is a direct group chat for WeChat products. Generally, companies with technical capabilities will consider participating in development for feature customization
 
-  - [OpenPie](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3Amorphes1995)
-  - [BIGO](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3Aliubingxing)
-  - [KE](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3Ashyodx)
+    - [OpenPie](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3Amorphes1995)
+    - [BIGO](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3Aliubingxing)
+    - [KE](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3Ashyodx)
 
-- attracted 2 committers to join through the Summer of Code event, and they continue to contribute to the community
-  - [NaturalSelect](https://github.com/NaturalSelect) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3ANaturalSelect)
-  - [setcy](https://github.com/setcy) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+setcy+is%3Aclosed)
+  - attracted 2 committers to join through the Summer of Code event, and they continue to contribute to the community
+    - [NaturalSelect](https://github.com/NaturalSelect) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3ANaturalSelect)
+    - [setcy](https://github.com/setcy) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+setcy+is%3Aclosed)
 
 ## Engineering Principles
 
@@ -353,7 +348,6 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
   File storage and object storage are key in the storage domain. CubeFS is a file storage system that provides cloud-native file system capabilities and is compatible with object storage. Moreover, it offers a multitude of competitive features and capabilities.
   The project’s differentiation is the main feature of CubeFS: [link to md#section](https://github.com/cubefs/cubefs/blob/master/README.md#what-can-you-build-with-cubefs)
-
 
 - [ ] **Document what the project does, and why it does it - including viable cloud native use cases.**
 
@@ -403,7 +397,6 @@ Note: this section may be augmented by the completion of a Governance Review fro
   - [x] Information on branch and tag strategies
   - [x] Branch and platform support and length of support
   - [x] Artifacts included in the release.
-
   - Additional information on topics such as LTS and edge releases are optional. Release expectations are a social contract between the project and its end users and hence changes to these should be well thought out, discussed, socialized and as necessary agreed upon by project leadership before getting rolled out.
     <!-- (TOC Evaluation goes here) -->
 
