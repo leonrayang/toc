@@ -31,10 +31,10 @@ N/A
 - [x] **Give a presentation and engage with the domain specific TAG(s) to increase awareness**
 
   <!-- (TOC Evaluation goes here) -->
-
-Record of CubeFS presentation at the Storage TAG on April 24, 2024. [link to video](https://www.youtube.com/ watch?v=UgRBZhzfr4w)
+Record of CubeFS presentation at the Storage TAG on April 24, 2024. [link to video](https://www.youtube.com/watch?v=UgRBZhzfr4w)
 
 - [ ] **TAG provides insight/recommendation of the project in the context of the landscape**
+
   <!-- (TOC Evaluation goes here) -->
   ******* Kevin:
   TODO: add recommendation from TAG-storage here.
