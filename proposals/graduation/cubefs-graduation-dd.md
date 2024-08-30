@@ -80,49 +80,27 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
   <!-- (TOC Evaluation goes here) -->
 
-  ******* Kevin:
-
-  Assets from project too lengthy. Only remarkable change points needed. e.g.:
-  1. CubeFS Governance initially has only maintainers as top level governance body of the whole project.
-  2. When and why CubeFS community decided to adopt a more advanced governance model, and how the governance nodes were estabished, provide link for reference.
-
-
-  ******* Relevant Assets from the Project:
-
-  <!---->
-  - CubeFS Governance documentation originally draft according to [CoreDNS,Fulentd.etc..](https://github.com/cubefs/cubefs/blob/017c689013cfaef9c430680bc2c68f62c25a8fa9/GOVERNANCE.md#credits).This means that the initial project governance did not establish its own distinctive rules.
-  - In the past six months, the core maintainer of CubeFS has been continuously optimizing around governance, hoping that the community will be clear, reasonable, efficient, and explicit in governance to help the community develop.[Governance documentation history](https://github.com/cubefs/cubefs/commits/master/GOVERNANCE.md)
-  - Below are some governance document changes and pull requests made in response to governance documents, all of which have been voted on and presented by maintainers.
-  - Update the Governance Document by most of maintainers: [link to pr](https://github.com/cubefs/cubefs/pull/3312), added Steering Committee to take charge of community highest strategy and explain the details.
-  - Update the Governance Document to eliminate the role of the leader:[link to pr](https://github.com/cubefs/cubefs/pull/3382), The description of 'project lead' implies a somewhat authoritarian role, but with the establishment of a steering committee, the steering committee should be considered the highest decision-making body.Thus we delete the role of 'project lead'.
-  - Update maintainer list according to activity and add steering commitee member: [link to pr](https://github.com/cubefs/cubefs/pull/3311)
-  - Add a commiter through voting by steer committe and maintainers : https://github.com/cubefs/cubefs/pull/3386
-  - Adding governance rules related to SIGs.: [link to pr](https://github.com/cubefs/cubefs/pull/3430)
-  - Adding governance rules related to RoadMap.: [link to pr](https://github.com/cubefs/cubefs/pull/3430)
-  <!---->
+  - CubeFS inintail governance: <https://github.com/cubefs/cubefs/blob/017c689013cfaef9c430680bc2c68f62c25a8fa9/GOVERNANCE.md#credits>
+  - Added Commiter role in May. 2023: <https://github.com/cubefs/cubefs/pull/1976>
+  - Added Steering Committee in Apr. 2024: <https://github.com/cubefs/cubefs/pull/3312>
+  - Update maintainer list according to activity and add steering commitee member: <https://github.com/cubefs/cubefs/pull/3311>
+  - Update the Governance Document to eliminate the role of the leader: <https://github.com/cubefs/cubefs/pull/3382>
+    The description of 'project lead' implies a somewhat authoritarian role, but with the establishment of a steering committee, the steering committee should be considered the highest decision-making body.Thus we delete the role of 'project lead'.
+  - Adding governance rules related to SIGs.: <https://github.com/cubefs/cubefs/pull/3430>
+  - Adding governance rules related to RoadMap.: <https://github.com/cubefs/cubefs/pull/3430>
 
 ### Required
 
 - [x] **Clear and discoverable project governance documentation.**
 
   <!-- (TOC Evaluation goes here) -->
-  CubeFS governance documentation: [link to md#section](https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/GOVERNANCE.md)
+  CubeFS governance documentation: [GOVERNANCE.md](https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/GOVERNANCE.md)
 
 - [x] **Governance is up to date with actual project activities, including any meetings, elections, leadership, or approval processes.**
 
   <!-- (TOC Evaluation goes here) -->
 
-  ******* Kevin: TODO: check and align with governace review report as well.
-
-  ******* Relevant Assets from the Project:
-  <!--
-  - We can see from the olddest governance documentation that the leader is assgined to one person, that's a little authoritarianismand not healthy to comminity governance. So CubeFS Core maintainers drafted and  established  the Steering Committee,clarifying its members in CubeFS as the same time: [link to issue](https://github.com/cubefs/cubefs/pull/3311#issue-2238919813), approved by most of maintainers.
-  - Add committer according to Governance and vote rules: [link to issue](https://github.com/cubefs/cubefs/pull/3384), approved by steering committe by votes.
-  - Update the document of the roadmap to improve readability and include features that are in preparation but not yet scheduled: [link to pr](https://github.com/cubefs/cubefs/pull/3358), approved by steering committe by votes.
-  - CubeFS Create SIGs according to [Member Changes and Management in SIGs](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#member-changes-and-management-in-sigs), then nomitated the leader group of SIGS and [approved by  steering committe by votes and maintainers](https://github.com/cubefs/cubefs-community/pull/13).
-  -->
-
-  Examples of keeping things up to date:
+  Examples showing that governance is up to date:
   - Update the document of the roadmap: <https://github.com/cubefs/cubefs/pull/3358>
   - Add new Committer: <https://github.com/cubefs/cubefs/pull/3384>
   - Nomination of Chairs and Tech Leads for SIG-CSI and SIG-Docs: <https://github.com/cubefs/cubefs-community/pull/13>
@@ -174,16 +152,17 @@ Note: this section may be augmented by the completion of a Governance Review fro
 - [x] **Document complete list of current maintainers, including names, contact information, domain of responsibility, and affiliation.**
 
   <!-- (TOC Evaluation goes here) -->
-  CubeFS tracks maintainers list at: [https://github.com/cubefs/cubefs/blob/master/MAINTAINERS.md](https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/MAINTAINERS.md)
+  CubeFS documents maintainers list at: <https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/MAINTAINERS.md>
 
 - [x] **A number of active maintainers which is appropriate to the size and scope of the project.**
+
   <!-- (TOC Evaluation goes here) -->
+  CubeFS has 14 top level maintainers from: JD.com, BEIKE, OPPO, Bytedance, LinkedIn, XFusion. Ref: <https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/MAINTAINERS.md>
 
-  CubeFS has 14 top level maintainers from: JD.com, BEIKE, OPPO, Bytedance, LinkedIn, XFusion
-
-  Activities of maintainers can be found at: <https://chubaofs.devstats.cncf.io/d/66/developer-activity-counts-by-companies?orgId=1&var-period_name=Last%20year&var-metric=contributions&var-repogroup_name=All&var-country_name=All&var-companies=All>
+  Activities of maintainers can be found at: [chubaofs.devstats.cncf.io](https://chubaofs.devstats.cncf.io/d/66/developer-activity-counts-by-companies?orgId=1&var-period_name=Last%20year&var-metric=contributions&var-repogroup_name=All&var-country_name=All&var-companies=All)
 
 - [x] **Document a complete maintainer lifecycle process (including roles, onboarding, offboarding, and emeritus status).**
+  
   <!-- (TOC Evaluation goes here) -->
   CubeFS has a clear maintainer lifecycle process documented in their governance doc:
   - [GOVERNANCE.md#becoming-a-maintainer](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#becoming-a-maintainer)
@@ -192,16 +171,12 @@ Note: this section may be augmented by the completion of a Governance Review fro
 - [ ] **Demonstrate usage of the maintainer lifecycle with outcomes, either through the addition or replacement of maintainers as project events have required.**
 
   <!-- (TOC Evaluation goes here) -->
-  ******* Kevin: 需要举证maintainer生命周期管理的事情，比如哪人因为他的贡献被发展为了maintainer, balanced between那句表述不太妥当，会被认为是难以衡量的潜规则。
-
-  ******* Relevant Assets from the Project:
-
   Currently, the maintainers of CubeFS are generally from active contributors. Changes have been made based on activity levels.
 
-  - The latest personnel changes are based on the new governance document and voting principles.[link to pr](https://github.com/cubefs/cubefs/pull/3311)
-  - Historical changes: New maintainers onboarding because individuals have been the main contributors to the project.[link to pr](https://github.com/cubefs/cubefs/pull/2228/files)
-  - Historical changes: The maintainer offboarding is due to insufficient activity levels from several individuals.[link to pr](https://github.com/cubefs/cubefs/pull/3044)
-  - Rules: How to become a maintainer.[link to md#section](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md?rgh-link-date=2024-03-30T12%3A39%3A54Z#changes-in-maintainership)
+  - The latest personnel changes are based on the new governance document and voting principles. Ref: <https://github.com/cubefs/cubefs/pull/3311>
+  - Historical changes: New maintainers onboarding because individuals have been the main contributors to the project. Ref: <https://github.com/cubefs/cubefs/pull/2228/files>
+  - Historical changes: The maintainer offboarding is due to insufficient activity levels from several individuals. Ref: <https://github.com/cubefs/cubefs/pull/3044>
+  - Rules: How to become a maintainer. Ref: [GOVERNANCE.md#changes-in-maintainership](https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/GOVERNANCE.md#changes-in-maintainership)
 
 - [x] **Project maintainers from at least 2 organizations that demonstrates survivability.**
 
@@ -209,6 +184,7 @@ Note: this section may be augmented by the completion of a Governance Review fro
   According to the [Maintainers list](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/MAINTAINERS.md), CubeFS currently has top level maintainers from OPPO, JD.com, BEIKE, Bytedance, LinkedIn, and additional committers from BIGO, VIVO.
 
   Definition of Maintainers and Committers can be found in the [GOVERNANCE.md](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/GOVERNANCE.md)
+  Both Maintainers and Committers require diversed membership: `No single vendor can exceed 50% of the total number of personnel.`
 
 - [x] **Code and Doc ownership in Github and elsewhere matches documented governance roles.**
 
@@ -295,49 +271,37 @@ Note: this section may be augmented by the completion of a Governance Review fro
   <!-- (TOC Evaluation goes here) -->
   CubeFS contribution workflow documented at: [CONTRIBUTING.md#workflow](https://github.com/cubefs/cubefs/blob/1536a544f2d9547647ad4e260edade60163e3585/CONTRIBUTING.md#workflow)
 
-- [ ] **Demonstrate contributor activity and recruitment.**
+- [x] **Demonstrate contributor activity and recruitment.**
 
   <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
-    Assets from project team irralevant.
-  ******* Relevant Assets from the Project:
-  - Contributor activity can be measured and displayed using GitHub's built-in tools to assess the current participation of contributors
-  [The contributions of contributors](https://github.com/cubefs/cubefs/graphs/contributors)
-  [The level of community activity, including contributors' discussions, issues, pull requests, and other activities](https://github.com/cubefs/cubefs/graphs/community)
-
-  - Using strategies and methods such as participating in summits and events to attract new vendor and adoptors
-    - 2024 KubeCon HONGKONG: CubeFS Boosts Efficiency of AI Production
-    - 2023 KubeCon China:[Cloud Native Storage CubeFS, Empowering AI Acceleration](https://www.youtube.com/watch?v=JOio7Nps_II&t=1036s)
-    - 2022 KubeCon NA:[The Best Practice of Machine Learning Platform Storage Based on CubeFS](https://www.youtube.com/watch?v=T8IjKLU9DWw&t=896s)
-    - 2023 GOTC: [interview](https://baijiahao.baidu.com/s?id=1766755025138692049&wfr=spider&for=pc)
-  - By participating in developer events attract contributors
+  - Contributor activities measured by devstats: [chubaofs.devstats.cncf.io](https://chubaofs.devstats.cncf.io/d/66/developer-activity-counts-by-companies?orgId=1&var-period_name=Since%20joining%20CNCF&var-metric=contributions&var-repogroup_name=All&var-country_name=All&var-companies=All)  
+  - Contributor activity measured by GitHub contributor dashboard: [The contributions of contributors](https://github.com/cubefs/cubefs/graphs/contributors)
+  - Example of recruiting new committers according to contributor's contributions:
+    - [NaturalSelect](https://github.com/NaturalSelect) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Amerged+author%3ANaturalSelect), TODO: add PR link to add to Committers list
+    - [setcy](https://github.com/setcy) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+author%3Asetcy+is%3Amerged), TODO: add PR link to add to Committers list
+  - Recruiting new contributors by participating in developer events
     - [Summer of Open Source](https://www.we2shopping.com/blog/2829327/)
     - [Developer activity 2024](https://github.com/cubefs/cubefs/issues/3105)
     - [Developer activity 2023](https://github.com/cubefs/cubefs/issues/1920)
 
-  - Ensure that new members can integrate smoothly and participate actively. For vendor enterprise users, there is a direct group chat for WeChat products. Generally, companies with technical capabilities will consider participating in development for feature customization
-
-    - [OpenPie](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3Amorphes1995)
-    - [BIGO](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3Aliubingxing)
-    - [KE](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3Ashyodx)
-
-  - attracted 2 committers to join through the Summer of Code event, and they continue to contribute to the community
-    - [NaturalSelect](https://github.com/NaturalSelect) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Aclosed+author%3ANaturalSelect)
-    - [setcy](https://github.com/setcy) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+setcy+is%3Aclosed)
-
 ## Engineering Principles
 
-- [ ] **Document project goals and objectives that illustrate the project’s differentiation in the Cloud Native landscape as well as outlines how this project fulfills an outstanding need and/or solves a problem differently.**
+- [x] **Document project goals and objectives that illustrate the project’s differentiation in the Cloud Native landscape as well as outlines how this project fulfills an outstanding need and/or solves a problem differently.**
 
   <!-- (TOC Evaluation goes here) -->
-  Project’s differentiation documented in [#why-cubefs](https://cubefs.io/docs/master/overview/introduction.html#why-cubefs)
+  Project goal from project [README.md#what-can-you-build-with-cubefs](https://github.com/cubefs/cubefs/blob/master/README.md#what-can-you-build-with-cubefs): 
 
-  File storage and object storage are key in the storage domain. CubeFS is a file storage system that provides cloud-native file system capabilities and is compatible with object storage. Moreover, it offers a multitude of competitive features and capabilities. The project’s differentiation is the main feature of CubeFS: [link to md#section](https://github.com/cubefs/cubefs/blob/master/README.md#what-can-you-build-with-cubefs)
-
-  ******* Relevant Assets from the Project:
-
-  File storage and object storage are key in the storage domain. CubeFS is a file storage system that provides cloud-native file system capabilities and is compatible with object storage. Moreover, it offers a multitude of competitive features and capabilities.
-  The project’s differentiation is the main feature of CubeFS: [link to md#section](https://github.com/cubefs/cubefs/blob/master/README.md#what-can-you-build-with-cubefs)
+  > As an open-source distributed storage, CubeFS can serve as your datacenter filesystem, data lake storage infra, and private or hybrid cloud storage. 
+  > In particular, CubeFS enables the separation of storage/compute architecture for databases and AI/ML applications.
+  > 
+  > Some key features of CubeFS include:
+  > 
+  > - Multiple access protocols such as POSIX, HDFS, S3, and its own REST API
+  > - Highly scalable metadata service with strong consistency  
+  > - Performance optimization of large/small files and sequential/random writes
+  > - Multi-tenancy support with better resource utilization and tenant isolation
+  > - Hybrid cloud I/O acceleration through multi-level caching
+  > - Flexible storage policies, high-performance replication or low-cost erasure coding
 
 - [x] **Document what the project does, and why it does it - including viable cloud native use cases.**
 
@@ -381,7 +345,7 @@ Note: this section may be augmented by the completion of a Governance Review fro
   - CubeFS architecture overview: <https://cubefs.io/docs/master/overview/architecture.html#architecture>
   - Design details are documented under the "Design" section, an example is: <https://cubefs.io/docs/master/design/master.html>
 
-- [ ] **Document the project's release process and guidelines publicly in a RELEASES.md or equivalent file that defines:**
+- [x] **Document the project's release process and guidelines publicly in a RELEASES.md or equivalent file that defines:**
 
   - [x] Release expectations (scheduled or based on feature implementation)
   - [x] Tagging as stable, unstable, and security related releases
@@ -389,16 +353,15 @@ Note: this section may be augmented by the completion of a Governance Review fro
   - [x] Branch and platform support and length of support
   - [x] Artifacts included in the release.
   - Additional information on topics such as LTS and edge releases are optional. Release expectations are a social contract between the project and its end users and hence changes to these should be well thought out, discussed, socialized and as necessary agreed upon by project leadership before getting rolled out.
+
     <!-- (TOC Evaluation goes here) -->
 
-  ******* Kevin:
+  According to [CubeFS RELEASES.md](https://github.com/cubefs/cubefs/blob/master/RELEASE.md#artifacts-included-in-the-release):
   - Cubefs documents their release frequency as needed (beta and official releases), which can be regarded as based on feature implementation.
-  - Security release process described at: https://github.com/cubefs/cubefs/blob/master/security/security-release-process.md
   - Length of support clearly documented, support latest 3 minor releases.
-  - **Findings, suggeted update**: No specific description of platform supported, according to the [artifacts-included-in-the-release](https://github.com/cubefs/cubefs/blob/cef58ab3db04857b05a69d9a132e37d4d92e79c7/RELEASE.md#artifacts-included-in-the-release), seems only amd64 binaries are maintained by the community currently.
+  - No specific description of platform supported, according to the [artifacts-included-in-the-release](https://github.com/cubefs/cubefs/blob/cef58ab3db04857b05a69d9a132e37d4d92e79c7/RELEASE.md#artifacts-included-in-the-release), currently only amd64 binaries are maintained by the community.
 
-  ******* Relevant Assets from the Project:
-
+  Security release process described at: <https://github.com/cubefs/cubefs/blob/master/security/security-release-process.md>
 
 - [x] **History of regular, quality releases.**
 
@@ -411,11 +374,10 @@ Note: this section may be augemented by a joint-assessment performed by TAG Secu
 
 ### Suggested
 
-- [x] **Achieving OpenSSF Best Practices silver or gold badge.**
+- [ ] **Achieving OpenSSF Best Practices silver or gold badge.**
 
   <!-- (TOC Evaluation goes here) -->
-  CubeFS has achieved OpenSSF Best Practices silver badge: <https://www.bestpractices.dev/en/projects/6232?criteria_level=1>
-
+  
 ### Required
 
 - [x] **Clearly defined and discoverable process to report security issues.**
@@ -426,17 +388,14 @@ Note: this section may be augemented by a joint-assessment performed by TAG Secu
 - [ ] **Enforcing Access Control Rules to secure the code base against attacks (Example: two factor authentication enforcement, and/or use of ACL tools.)**
 
   <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
+  - **TODO for project team: enable two-factor authentication**
 
-  ******* Relevant Assets from the Project:
-1）Maintainer account security, two-factor authentication, and GitHub login requiring Authenticator two-step verification.
-2）CI integration includes ci-test-unit,ci-test-s3 and ci-sast [link](https://github.com/cubefs/cubefs/blob/master/.github/workflows/ci.yml)
-3）Security scanning, static and dynamic scanning
-
-  - [gofumpt](https://github.com/cubefs/cubefs/blob/master/docker/script/run_format.sh)
-  - golint:In file docker-compose.yml:469 [link](https://github.com/cubefs/cubefs/blob/master/docker/docker-compose.yml)
-  - gosec:In file docker-compose.yuml:479 [link](https://github.com/cubefs/cubefs/blob/master/docker/docker-compose.yml)
-  - [fuzzers:Fuzz testing][cubefs: add base fuzzers cncf/cncf-fuzzing#387](https://github.com/cncf/cncf-fuzzing/pull/387)
+  - Static and dynamic scanning, Security scanning
+    - [gofumpt](https://github.com/cubefs/cubefs/blob/master/docker/script/run_format.sh)
+    - golint:In file docker-compose.yml:469 [link](https://github.com/cubefs/cubefs/blob/master/docker/docker-compose.yml)
+    - gosec:In file docker-compose.yuml:479 [link](https://github.com/cubefs/cubefs/blob/master/docker/docker-compose.yml)
+    - Fuzz testing [cubefs: add base fuzzers cncf/cncf-fuzzing#387](https://github.com/cncf/cncf-fuzzing/pull/387)
+  - CI integration includes ci-test-unit, ci-test-s3 and ci-sast [link](https://github.com/cubefs/cubefs/blob/master/.github/workflows/ci.yml)
 
 - [x] **Document assignment of security response roles and how reports are handled.**
 
@@ -447,20 +406,14 @@ Note: this section may be augemented by a joint-assessment performed by TAG Secu
   <!-- (TOC Evaluation goes here) -->
   <https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/security/CubeFS-self-assessment.md>
 
-- [ ] **Third Party Security Review.**
+- [x] **Third Party Security Review.**
 
-  - [ ] Moderate and low findings from the Third Party Security Review are planned/tracked for resolution as well as overall thematic findings, such as: improving project contribution guide providing a PR review guide to look for memory leaks and other vulnerabilities the project may be susceptible to by design or language choice ensuring adequate test coverage on all PRs.
-
-  CubeFS has passed the Third Party Security Review, Ref: [CubeFS-Security-Audit-2023-report](https://github.com/cubefs/cubefs/blob/master/security/CubeFS-security-audit-2023-report.pdf).
+  - [x] Moderate and low findings from the Third Party Security Review are planned/tracked for resolution as well as overall thematic findings, such as: improving project contribution guide providing a PR review guide to look for memory leaks and other vulnerabilities the project may be susceptible to by design or language choice ensuring adequate test coverage on all PRs.
 
   <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
-    **Need to check if findings and recommendations are under tracking.**
-    **Critical issues need to be fixed.**
-
-  ******* Relevant Assets from the Project:
-
-Some advisories already be fixed [link](https://github.com/cubefs/cubefs/security/advisories?state=Triage)
+  CubeFS has passed the Third Party Security Review, Ref: [CubeFS-Security-Audit-2023-report](https://github.com/cubefs/cubefs/blob/master/security/CubeFS-security-audit-2023-report.pdf).
+  All found issues have been fixed, ref: page4 in the report "Executive summary".
+  Security advisories of the fixes: [link](https://github.com/cubefs/cubefs/security/advisories?state=Triage)
 
 - [x] **Achieve the Open Source Security Foundation (OpenSSF) Best Practices passing badge.**
 
@@ -503,9 +456,9 @@ Refer to the Adoption portion of this document.
 - [ ] **Clearly documented integrations and/or compatibility with other CNCF projects as well as non-CNCF projects.**
 
   <!-- (TOC Evaluation goes here) -->
-  ******* Kevin:
+  Integration with Hadoop: <https://cubefs.io/docs/master/ecology/hadoop.html>
+  Integration with Kubernetes: <https://cubefs.io/docs/master/ecology/k8s.html>
 
-  ******* Relevant Assets from the Project:
 
 
 #### Adoption
