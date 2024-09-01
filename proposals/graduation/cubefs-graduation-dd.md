@@ -171,12 +171,8 @@ Note: this section may be augmented by the completion of a Governance Review fro
 - [ ] **Demonstrate usage of the maintainer lifecycle with outcomes, either through the addition or replacement of maintainers as project events have required.**
 
   <!-- (TOC Evaluation goes here) -->
-  Currently, the maintainers of CubeFS are generally from active contributors. Changes have been made based on activity levels.
-
-  - The latest personnel changes are based on the new governance document and voting principles. Ref: <https://github.com/cubefs/cubefs/pull/3311>
-  - Historical changes: New maintainers onboarding because individuals have been the main contributors to the project. Ref: <https://github.com/cubefs/cubefs/pull/2228/files>
-  - Historical changes: The maintainer offboarding is due to insufficient activity levels from several individuals. Ref: <https://github.com/cubefs/cubefs/pull/3044>
-  - Rules: How to become a maintainer. Ref: [GOVERNANCE.md#changes-in-maintainership](https://github.com/cubefs/cubefs/blob/6617aa1eb7bf6b63bfacc2c266eeb711c650973f/GOVERNANCE.md#changes-in-maintainership)
+  - According to the GOVERNANCE documentation, specifically in the section on [Changes in Maintainership](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#changes-in-maintainership), some maintainers are not sufficiently active. Therefore, we are launching pull request #3311.
+  - We propose to [add a committer](https://github.com/cubefs/cubefs/pull/3384) in line with the [Expectations from Committers](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#expectations-from-committers) section and nominate candidates according to the guidelines in the [Becoming a Committer](https://github.com/cubefs/cubefs/blob/master/GOVERNANCE.md#becoming-a-committer) section.
 
 - [x] **Project maintainers from at least 2 organizations that demonstrates survivability.**
 
@@ -277,8 +273,13 @@ Note: this section may be augmented by the completion of a Governance Review fro
   - Contributor activities measured by devstats: [chubaofs.devstats.cncf.io](https://chubaofs.devstats.cncf.io/d/66/developer-activity-counts-by-companies?orgId=1&var-period_name=Since%20joining%20CNCF&var-metric=contributions&var-repogroup_name=All&var-country_name=All&var-companies=All)  
   - Contributor activity measured by GitHub contributor dashboard: [The contributions of contributors](https://github.com/cubefs/cubefs/graphs/contributors)
   - Example of recruiting new committers according to contributor's contributions:
-    - [NaturalSelect](https://github.com/NaturalSelect) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Amerged+author%3ANaturalSelect), TODO: add PR link to add to Committers list
-    - [setcy](https://github.com/setcy) : [Contribution record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+author%3Asetcy+is%3Amerged), TODO: add PR link to add to Committers list
+    - [shuqiang-zheng](https://github.com/shuqiang-zheng) :
+		- [Contribution pr record](https://github.com/cubefs/cubefs/pulls?q=is%3Apr+is%3Amerged+author%3Ashuqiang-zheng)
+		- [PR link](https://github.com/cubefs/cubefs/pull/3384) to add to Committers list
+    - [zhangchuanqing](https://github.com/zhangchuanqing5658) : 
+		- [Contribution main branch](https://github.com/cubefs/cubefs/tree/develop-v3.5.0-metanode_rocksdb)
+		- [PR link](https://github.com/cubefs/cubefs/pull/3386) to add to Committers list
+	
   - Recruiting new contributors by participating in developer events
     - [Summer of Open Source](https://www.we2shopping.com/blog/2829327/)
     - [Developer activity 2024](https://github.com/cubefs/cubefs/issues/3105)
